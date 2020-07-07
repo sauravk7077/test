@@ -1,0 +1,13 @@
+name: some_test
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: just echo a message
+      run: |
+        echo Hello there!
